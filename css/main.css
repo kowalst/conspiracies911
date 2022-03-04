@@ -584,6 +584,7 @@ footer .logo img{
 footer .logo{
     width: 20%;
     float: left;
+    padding-bottom: 1em;
 }
 footer .logo-right img{
     height: 100px;
@@ -592,6 +593,7 @@ footer .logo-right img{
 footer .logo-right{
     width: 20%;
     float: left;
+    padding-bottom: 1em;
 }
 
 
