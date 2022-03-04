@@ -24,7 +24,7 @@ body{
 
 /* Header/Menu */
 header{
-    position: static;
+    position: absolute;
     display: var(--display-style);
     top: 0px;
     left: 0px;
