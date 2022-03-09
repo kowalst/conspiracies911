@@ -126,6 +126,13 @@ nav li:hover{
     font-size: 3em;
 	color: var(--white);
 }
+.heroitems h2{
+    color: var(--white);
+    text-align: left;
+}
+.heroitems .hero_ab{
+    text-align: left;
+}
 .heroitems p{
     font-size: 1.4em;
 	color: var(--white);
