@@ -233,11 +233,11 @@ nav li:hover{
     width: 100%;
     height: 100%;
 }
-
 .feature img:hover{
     box-shadow: 0 8px 16px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
     cursor: pointer;
 }
+
 
 /* The Modal (background) */
 .modal {
@@ -274,7 +274,7 @@ nav li:hover{
   }
   
   /* The Close Button */
-  .close0, .close1, .close2 .close3{
+  .close0, .close1, .close2, .close3, .close4, .close5{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -284,7 +284,7 @@ nav li:hover{
     transition: 0.3s;
   }
   
-.close0:hover, .close1:hover, .close2:hover, .close3:hover, .close0:focus, .close1:focus, .close2:focus .close3:focus{
+.close0:hover, .close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .close0:focus, .close1:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
