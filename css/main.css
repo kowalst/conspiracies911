@@ -227,7 +227,7 @@ nav li:hover{
 .timeline-container{
     width: 100%;
     position: relative;
-    height: 40em;
+    height: 50em;
 }
 .timeline{
     width: 100%;
@@ -274,7 +274,7 @@ nav li:hover{
   }
   
   /* The Close Button */
-  .close0, .close1, .close2 {
+  .close0, .close1, .close2 .close3{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -284,7 +284,7 @@ nav li:hover{
     transition: 0.3s;
   }
   
-.close0:hover, .close1:hover, .close2:hover, .close0:focus, .close1:focus, .close2:focus {
+.close0:hover, .close1:hover, .close2:hover, .close3:hover, .close0:focus, .close1:focus, .close2:focus .close3:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;

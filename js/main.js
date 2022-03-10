@@ -63,15 +63,18 @@ function showSlides(n) {
 var modal0 = document.getElementById("myModal0");
 var modal1 = document.getElementById("myModal1");
 var modal2 = document.getElementById("myModal2");
+var modal3 = document.getElementById("myModal3");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var smimg0 = document.getElementById("smimg0");
 var smimg1 = document.getElementById("smimg1");
 var smimg2 = document.getElementById("smimg2");
+var smimg3 = document.getElementById("smimg3");
 
 var modalImg0 = document.getElementById("img0");
 var modalImg1 = document.getElementById("img1");
 var modalImg2 = document.getElementById("img2");
+var modalImg3 = document.getElementById("img3");
 
 smimg0.onclick = function(){
   modal0.style.display = "block";
@@ -85,10 +88,15 @@ smimg2.onclick = function(){
     modal2.style.display = "block";
     modalImg2.src = "images/datav2.png";
 }
+smimg3.onclick = function(){
+    modal3.style.display = "block";
+    modalImg3.src = "images/datav3.png";
+}
 // Get the <span> element that closes the modal
 var span0 = document.getElementsByClassName("close0")[0];
 var span1 = document.getElementsByClassName("close1")[0];
 var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
 
 // When the user clicks on <span> (x), close the modal
 span0.onclick = function() {
@@ -99,4 +107,7 @@ span1.onclick = function() {
 }
 span2.onclick = function() {
     modal2.style.display = "none";
+}
+span3.onclick = function() {
+    modal3.style.display = "none";
 }
