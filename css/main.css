@@ -524,12 +524,11 @@ nav li:hover{
     padding-top: 5em;
 }
 .row h3{
-    color: var(--lBlue);
-    padding-top:2em;
+    color: var(--dBlue);
     font-size: 2.5em;
 }
 .row p{
-    color: var(--lBlue);
+    color: var(--dBlue);
     padding-bottom: 2em;
     font-size: 20px;   
 }
@@ -546,7 +545,17 @@ nav li:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;    
+    width: 100%;  
+    padding-bottom: 0;  
+}
+.about .row-4{
+    text-align: left;
+    padding-bottom: 0;
+}
+.about .row-5{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5em;
 }
 
 
