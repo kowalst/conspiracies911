@@ -97,34 +97,34 @@ a{
 /* navbar */
 #navbar {
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color: var(--dBlue);
+}
   
-  #navbar a {
+#navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--lBlue);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  #navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+#navbar a:hover {
+    color: var(--lBlue);
+    border: 3.5px solid var(--lBlue);
+}
 
-  .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 1110px;
-  }
+}
+
+#navbar a.current{
+    background-color: var(--lBlue) !important;
+    color: var(--dBlue) !important;
+}
 
 /* Hero Image */
 .heroimage{
@@ -240,7 +240,7 @@ a{
 .feature h2{
     font-size: 3em;
     margin-bottom: 30px;
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
 }
 .feature p{
     font-size:1.4em;
