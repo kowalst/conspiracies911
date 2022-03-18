@@ -254,6 +254,16 @@ a{
 .feature .feature-lowercase-list{
     list-style: lower-latin;
 }
+.intvBib{
+    list-style: none !important;
+}
+.intvBib a{
+    text-decoration: none;
+    color:white;
+}
+.intvBib a:hover{
+    color: var(--lBlue);
+}
 
 .timeline-container{
     width: 100%;
