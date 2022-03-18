@@ -36,26 +36,6 @@ document.ready = function(){
     });
 };
 
-let mainNavLinks = document.querySelectorAll("#navbar a");
-let mainSections = document.querySelectorAll("div.feature");
-
-let lastId;
-let cur = [];
-
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
-
-  mainNavLinks.forEach(link => {
-    let section = document.querySelector(link.hash);
-
-    if (window.pageYOffset >= section.offsetTo) {
-      link.classList.add("current");
-    } else {
-      link.classList.remove("current");
-    }
-  });
-});
-
 // Get the modal
 var modal0 = document.getElementById("myModal0");
 var modal1 = document.getElementById("myModal1");
